@@ -22,4 +22,8 @@ Read ISO 8859-7 text from input_file, convert it to ISO 8859-1 and write the res
 
 ## Tests
 
-Use the files in [tests](tests/) folder to run the tests.
+See [tests](tests). A t1_8859-7.txt input file is provided and its corresponding t1_8859-1.txt out file.
+
+## Profiling
+
+'convert' has been tested for memory leaks with [AddressSanitizer](https://github.com/google/sanitizers/wiki/AddressSanitizer).
